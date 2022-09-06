@@ -10,7 +10,7 @@ namespace ConsoleTest
         static void Main(string[] args)
         {
             LongestCommonPrefix a = new LongestCommonPrefix();
-            Console.WriteLine("输入的测试结果为：{0}", a.longestCommonPrefix(new string[]{"cir","cor"}));
+            Console.WriteLine("输入的测试结果为：{0}", a.longestCommonPrefix(new string[]{"abca","abc"}));
             Console.ReadKey();
         }
     }
