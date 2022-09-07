@@ -9,10 +9,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            LengthOfLastWord a = new LengthOfLastWord();
-            Console.WriteLine("输入的测试结果为：{0}", a.lengthOfLastWord("   fly me   to   the moon  "));
-
-            Console.WriteLine(typeof(Int32.Parse("3")));
+            AddBinary a = new AddBinary();
+            Console.WriteLine("输入的测试结果为：{0}", a.addBinary("11","1"));
             Console.ReadKey();
         }
     }
