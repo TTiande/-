@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IsValid.cs" />
+    <Compile Include="LengthOfLastWord.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
