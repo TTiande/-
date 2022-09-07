@@ -11,6 +11,8 @@ namespace ConsoleTest
         {
             LengthOfLastWord a = new LengthOfLastWord();
             Console.WriteLine("输入的测试结果为：{0}", a.lengthOfLastWord("   fly me   to   the moon  "));
+
+            Console.WriteLine(typeof(Int32.Parse("3")));
             Console.ReadKey();
         }
     }

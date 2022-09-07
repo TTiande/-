@@ -58,6 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddBinary.cs" />
     <Compile Include="IsValid.cs" />
     <Compile Include="LengthOfLastWord.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
