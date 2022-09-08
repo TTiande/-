@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddBinary.cs" />
+    <Compile Include="IsPalindrome.cs" />
     <Compile Include="IsValid.cs" />
     <Compile Include="LengthOfLastWord.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
