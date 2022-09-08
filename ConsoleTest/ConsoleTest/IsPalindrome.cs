@@ -10,14 +10,36 @@ namespace ConsoleTest
     {
         public bool isPalindrome(string s)
         {
-            Char[] str;
+            
+            object[] ob_str = null;
             Stack st = new Stack();
 
             //去掉所有空白；
-            s.Replace(" ", "");
+            s=s.Replace(" ", "");
+            s=s.ToLower();
             //利用栈插入所有的字母数字
-            str = s.ToCharArray();
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (s[i] <= 57 & s[i] >= 48 || s[i] <= 90 & s[i] >= 65 || s[i] <= 122 & s[i] >= 97)
+                    st.Push(s[i]);
+            }
+            ob_str = st.ToArray();
 
+            string[] str = Array.ConvertAll<object, string>(ob_str, x => x.ToString());
+            if (str.Length == null)
+            {
+                return true;
+            }
+            StringBuilder a = new StringBuilder();
+            StringBuilder b = new StringBuilder();
+            for (int i = 0; i < str.Length; i++)
+            {
+                a.Append(str[i]);
+                b.Append(str[str.Length - 1 - i]);
+            }
+
+            bool F = a.Equals(b);
+            return F;
         }
     }
 }

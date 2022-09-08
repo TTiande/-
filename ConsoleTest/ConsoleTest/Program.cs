@@ -9,8 +9,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            AddBinary a = new AddBinary();
-            Console.WriteLine("输入的测试结果为：{0}", a.addBinary("11","1"));
+            IsPalindrome a = new IsPalindrome();
+            Console.WriteLine("输入的测试结果为：{0}", a.isPalindrome("A man, a plan, a canal: Panama"));
             Console.ReadKey();
         }
     }
