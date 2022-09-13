@@ -2,30 +2,24 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Collections;
 
 namespace ConsoleTest
 {
     class ConvertToTitle
     {
-        public string convertToTitle(int columnNumber)
+        public string convertToTitle(int n)
         {
-            StringBuilder temp = new StringBuilder();
-            while (columnNumber > 0)
-            {
-                temp.Append(columnNumber % 26);
-                columnNumber = columnNumber / 26;
+            string s = "";
+            while (n != 0)
+            {//每次都减一，是因为不减1做不了26进制的求余，会溢出。
+                n--;
+                int div = n % 26;
+                s = (char)('A' + div) + s;
+                n = n / 26;
             }
-            string ac = null;
-            for (int i = 0; i < temp.Length; i++)
-            {
-                ac += numToColumn(int.Parse(temp[i].ToString()));
-            }
-            return ac;
-        }
-        public string numToColumn(int a)
-        {
-            string str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-            return str[a].ToString();
+            return s;
+
         }
     }
 }
