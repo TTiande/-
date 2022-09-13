@@ -61,6 +61,7 @@
     <Compile Include="AddBinary.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="ConvertToTitle.cs" />
+    <Compile Include="IsIsomorphic.cs" />
     <Compile Include="IsPalindrome.cs" />
     <Compile Include="IsValid.cs" />
     <Compile Include="LengthOfLastWord.cs" />
