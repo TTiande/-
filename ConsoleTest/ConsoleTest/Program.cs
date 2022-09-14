@@ -9,8 +9,9 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            TitleToNumber a = new TitleToNumber();
-            Console.WriteLine("输入的测试结果为：{0}", a.titleToNumber("AB"));
+            TreeNode a = new TreeNode();
+            BinaryTreePaths b = new BinaryTreePaths();
+            Console.WriteLine("输入的测试结果为：{0}", "你好");
             Console.ReadKey();
         }
     }
