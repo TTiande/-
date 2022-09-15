@@ -9,9 +9,10 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            TreeNode a = new TreeNode();
-            BinaryTreePaths b = new BinaryTreePaths();
-            Console.WriteLine("输入的测试结果为：{0}", "你好");
+            ReverseString a = new ReverseString();
+            a.reverseString(a.s);
+            a.s.ToString();
+            Console.WriteLine( a.s);
             Console.ReadKey();
         }
     }

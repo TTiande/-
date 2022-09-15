@@ -69,6 +69,7 @@
     <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReverseString.cs" />
     <Compile Include="RomanToInt.cs" />
     <Compile Include="TitleToNumber.cs" />
     <Compile Include="TreeNodecs.cs" />

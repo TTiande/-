@@ -13,7 +13,7 @@ namespace ConsoleTest
         StringBuilder re = new StringBuilder();
         public IList<string> binaryTreePaths(TreeNode root)
         {
-            string s;
+            string s="I am Li Hua";
             string[] str = s.Split(' ');
             stack = null;
             result = null;
