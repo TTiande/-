@@ -9,8 +9,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            ReverseVowels a = new ReverseVowels();
-            Console.WriteLine(a.reverseVowels("leetcode"));
+            CanConstruct a = new CanConstruct();
+            Console.WriteLine(a.canConstruct("a","b"));
             Console.ReadKey();
         }
     }

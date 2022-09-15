@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="AddBinary.cs" />
     <Compile Include="BinaryTreePaths.cs" />
+    <Compile Include="CanConstruct.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="ConvertToTitle.cs" />
     <Compile Include="IsIsomorphic.cs" />
