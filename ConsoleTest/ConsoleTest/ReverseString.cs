@@ -7,7 +7,9 @@ namespace ConsoleTest
 {
     class ReverseString
     {//反转字符串
+        
         public char[] s = new char[5] { 'h','e','l','l','o'};
+        //一句话搞定。 Array.Reverse(s);
         public void reverseString(char[] s)
         {
             char temp = new char();
