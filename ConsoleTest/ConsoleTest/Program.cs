@@ -9,8 +9,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            CanConstruct a = new CanConstruct();
-            Console.WriteLine(a.canConstruct("a","b"));
+            FirstUniqChar a = new FirstUniqChar();
+            Console.WriteLine(a.firstUniqChar("leetcode"));
             Console.ReadKey();
         }
     }
