@@ -9,8 +9,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            FirstUniqChar a = new FirstUniqChar();
-            Console.WriteLine(a.firstUniqChar("leetcode"));
+            FindTheDifference a = new FindTheDifference();
+            Console.WriteLine(a.findTheDifference("abcd","abcde"));
             Console.ReadKey();
         }
     }

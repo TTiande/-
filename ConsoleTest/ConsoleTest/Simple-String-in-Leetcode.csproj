@@ -63,6 +63,7 @@
     <Compile Include="CanConstruct.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="ConvertToTitle.cs" />
+    <Compile Include="FindTheDifference.cs" />
     <Compile Include="FirstUniqChar.cs" />
     <Compile Include="IsIsomorphic.cs" />
     <Compile Include="IsPalindrome.cs" />

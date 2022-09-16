@@ -26,7 +26,7 @@ namespace ConsoleTest
             ob_str = st.ToArray();
 
             string[] str = Array.ConvertAll<object, string>(ob_str, x => x.ToString());
-            if (str.Length == null)
+            if (str.Length == 0)
             {
                 return true;
             }
