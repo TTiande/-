@@ -9,9 +9,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            FizzBuzz a = new FizzBuzz();;
-            foreach(var i in a.fizzBuzz(3))
-            Console.WriteLine(i);
+            AddStrings a = new AddStrings(); ;
+            Console.WriteLine(a.addStrings("456","77"));
             Console.ReadKey();
         }
     }
