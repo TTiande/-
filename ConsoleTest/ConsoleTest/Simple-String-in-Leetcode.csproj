@@ -65,6 +65,7 @@
     <Compile Include="ConvertToTitle.cs" />
     <Compile Include="FindTheDifference.cs" />
     <Compile Include="FirstUniqChar.cs" />
+    <Compile Include="FizzBuzz.cs" />
     <Compile Include="IsIsomorphic.cs" />
     <Compile Include="IsPalindrome.cs" />
     <Compile Include="IsValid.cs" />

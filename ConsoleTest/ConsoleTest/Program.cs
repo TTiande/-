@@ -9,8 +9,9 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            FindTheDifference a = new FindTheDifference();
-            Console.WriteLine(a.findTheDifference("abcd","abcde"));
+            FizzBuzz a = new FizzBuzz();;
+            foreach(var i in a.fizzBuzz(3))
+            Console.WriteLine(i);
             Console.ReadKey();
         }
     }
