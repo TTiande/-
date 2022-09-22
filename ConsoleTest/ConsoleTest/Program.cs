@@ -9,8 +9,9 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            LongestPalindrome a = new LongestPalindrome(); ;
-            Console.WriteLine(a.longestPalindrome("abccccdd"));
+            AddStrings a = new AddStrings(); ;
+            Console.WriteLine(a.addStrings("9333852702227987",
+"85731737104263"));
             Console.ReadKey();
         }
     }

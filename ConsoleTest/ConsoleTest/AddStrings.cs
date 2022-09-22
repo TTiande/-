@@ -6,32 +6,31 @@ using System.Text;
 namespace ConsoleTest
 {
     class AddStrings
-    {
+    {//字符串相加
         public string addStrings(string num1, string num2)
         {
-            //使他们的长度一样。
-            if (num1.Length > num2.Length)
-                num2=num2.PadLeft(num1.Length, '0');
-            else num1=num1.PadLeft(num2.Length, '0');
+            //相同长度。
+            if (num1.Length > num2.Length) num2 = num2.PadLeft(num1.Length, '0');
+            else num1 = num1.PadLeft(num2.Length, '0');
+            //定义变量。
+            char[] num1_ch = num1.ToArray();
+            char[] num2_ch = num2.ToArray();
+            char[] result = new char[num1.Length];
+            char carry = (char)0;
 
-            int carry = 0;
-            char[] num_1 = num1.ToArray();
-            char[] num_2 = num2.ToArray();
-            StringBuilder result = new StringBuilder();
-            Array.Reverse(num_1);
-            Array.Reverse(num_2);
-            
-            for (int i = 0; i < num1.Length; i++)
+            //开始循环计算。
+            for (int i = num1.Length - 1; i > -1; i--)
             {
-                char a = (char)(num_1[i] +num_2[i] + carry-48);
-                if (a > '9') { carry = 1; result.Append((char)(a-48)); }
-                else { carry = 0; result.Append(a); }
+                result[i] = (char)(num1_ch[i] + num2_ch[i] + carry - '0');
+                if (result[i] > '9') { carry = (char)1; result[i] = (char)(result[i] - 10); }
+                else carry = (char)0;
             }
-            char[] result_char=new char[result.Length];
-            result_char = result.ToString().ToArray();
-            Array.Reverse(result_char);
-            string b = new String(result_char);
-            return b;
+            string sum = new String(result);
+            if (carry != 0)
+            {
+                sum = "1" + sum;
+            }
+            return sum;
         }
     }
 
