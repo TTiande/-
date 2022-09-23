@@ -9,8 +9,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            CountSegments a = new CountSegments(); ;
-            Console.WriteLine(a.countSegments(", , , ,        a, eaefa"));
+            RepeatedSubstringPattern a = new RepeatedSubstringPattern(); ;
+            Console.WriteLine(a.repeatedSubstringPattern("babbabbabbabbab"));
             Console.ReadKey();
         }
     }
