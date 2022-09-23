@@ -10,7 +10,7 @@ namespace ConsoleTest
         static void Main(string[] args)
         {
             RepeatedSubstringPattern a = new RepeatedSubstringPattern(); ;
-            Console.WriteLine(a.repeatedSubstringPattern("babbabbabbabbab"));
+            Console.WriteLine(a.repeatedSubstringPattern("abaababaab"));
             Console.ReadKey();
         }
     }

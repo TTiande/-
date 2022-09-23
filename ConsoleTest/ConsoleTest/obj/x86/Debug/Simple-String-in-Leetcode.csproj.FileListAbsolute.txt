@@ -3,3 +3,9 @@ D:\-\ConsoleTest\ConsoleTest\obj\x86\Debug\ConsoleTest.pdb
 D:\-\ConsoleTest\ConsoleTest\bin\Debug\ConsoleTest.exe
 D:\-\ConsoleTest\ConsoleTest\bin\Debug\ConsoleTest.pdb
 D:\-\ConsoleTest\ConsoleTest\obj\x86\Debug\Simple-String-in-Leetcode.csprojResolveAssemblyReference.cache
+F:\-\ConsoleTest\ConsoleTest\bin\Debug\ConsoleTest.exe
+F:\-\ConsoleTest\ConsoleTest\bin\Debug\ConsoleTest.pdb
+F:\-\ConsoleTest\ConsoleTest\obj\x86\Debug\Simple-String-in-Leetcode.csproj.AssemblyReference.cache
+F:\-\ConsoleTest\ConsoleTest\obj\x86\Debug\Simple-String-in-Leetcode.csproj.CoreCompileInputs.cache
+F:\-\ConsoleTest\ConsoleTest\obj\x86\Debug\ConsoleTest.exe
+F:\-\ConsoleTest\ConsoleTest\obj\x86\Debug\ConsoleTest.pdb
