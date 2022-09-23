@@ -8,19 +8,23 @@ namespace ConsoleTest
 {
     class Class1
     {
-        public Type function(string s)
+        public Type function()
         {
+            //1
+            //string a = "4";
+            //int b = 1;
+            //int temp = 0;
+            //bool d=int.TryParse(a, out temp);
+            //var sum = temp - b;
+            //2
+            //char a = 'a';
+            //string b = a.ToString();
+            //var result = b.ToCharArray();
+            //3
             char a = 'a';
-            int b = 97;
-            bool c = false;
-            var d=a-b;
-            return d.GetType();
-             s = Regex.Replace(s,"[^A-Z0-9a-z]*","").ToLower();
-
-            char[] temp = s.ToCharArray();
-
-            Array.Reverse(temp);
-
+            int b = 1;
+            var result = char.Parse(b.ToString());
+            return result.GetType();
             //return s == new string(temp);
         }
     }

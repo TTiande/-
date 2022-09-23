@@ -51,6 +51,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -64,6 +65,7 @@
     <Compile Include="CanConstruct.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="ConvertToTitle.cs" />
+    <Compile Include="CountSegments.cs" />
     <Compile Include="FindTheDifference.cs" />
     <Compile Include="FirstUniqChar.cs" />
     <Compile Include="FizzBuzz.cs" />
