@@ -9,8 +9,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            RepeatedSubstringPattern a = new RepeatedSubstringPattern(); ;
-            Console.WriteLine(a.repeatedSubstringPattern("abaababaab"));
+            LicenseKeyFormatting a = new LicenseKeyFormatting(); ;
+            Console.WriteLine(a.licenseKeyFormatting("---",3));
             Console.ReadKey();
         }
     }

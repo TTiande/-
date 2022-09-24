@@ -74,6 +74,7 @@
     <Compile Include="IsSubsequence.cs" />
     <Compile Include="IsValid.cs" />
     <Compile Include="LengthOfLastWord.cs" />
+    <Compile Include="LicenseKeyFormatting.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="LongestPalindrome.cs" />
     <Compile Include="obj\x86\Debug\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs" />
