@@ -9,10 +9,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            FindWords a = new FindWords(); 
-            string[] result=a.findWords(new string[] { "Hello","Alaska","Dad","Peace"});
-            foreach(var i in result)
-            Console.WriteLine(i);
+            RepeatedSubstringPattern a = new RepeatedSubstringPattern();
+            Console.WriteLine(a.repeatedSubstringPattern("abab" ));
             Console.ReadKey();
         }
     }
