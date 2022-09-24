@@ -67,6 +67,7 @@
     <Compile Include="ConvertToTitle.cs" />
     <Compile Include="CountSegments.cs" />
     <Compile Include="FindTheDifference.cs" />
+    <Compile Include="FindWords.cs" />
     <Compile Include="FirstUniqChar.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="IsIsomorphic.cs" />

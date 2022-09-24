@@ -9,8 +9,10 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            LicenseKeyFormatting a = new LicenseKeyFormatting(); ;
-            Console.WriteLine(a.licenseKeyFormatting("---",3));
+            FindWords a = new FindWords(); 
+            string[] result=a.findWords(new string[] { "Hello","Alaska","Dad","Peace"});
+            foreach(var i in result)
+            Console.WriteLine(i);
             Console.ReadKey();
         }
     }
