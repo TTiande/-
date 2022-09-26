@@ -10,8 +10,11 @@ namespace ConsoleTest
         public bool repeatedSubstringPattern(string s)
         {//思路1：长度为0或1返回false。重复与首字母进行判断，用队列最方便。
             //思路2：用Compare方法或Equals方法进行判断,反复比较。
-            //思路三：KMP算法
-
+            //思路三：KMP算法:1.实现Next数组。2.遍历主串。
+            //int[] next=new int[];
+             var nextArray = GetKMPNextArray(s);
+            var tailIndex = s.Length - 1;
+            return nextArray[tailIndex] != -1 && s.Length % (tailIndex - nextArray[tailIndex]) == 0;
             //实现2
             //StringBuilder str = new StringBuilder();
             //StringBuilder temp = new StringBuilder();
@@ -48,6 +51,23 @@ namespace ConsoleTest
             //    if (a != s) return false; else return true;
             //}
             //return false;
+        }
+        
+        private int[] GetKMPNextArray(string s)
+        {
+            var test = Enumerable.Repeat(-1, s.Length);
+            var forReturn = test.ToArray();
+            for (var i = 1; i < s.Length; i++)
+            {
+                var j = forReturn[i - 1];
+                while (j >= 0 && s[j + 1] != s[i])
+                    j = forReturn[j];
+
+                if (s[j + 1] == s[i])
+                    forReturn[i] = j + 1;
+            }
+
+            return forReturn;
         }
     }
 }

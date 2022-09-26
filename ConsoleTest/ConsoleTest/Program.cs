@@ -9,8 +9,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            RepeatedSubstringPattern a = new RepeatedSubstringPattern();
-            Console.WriteLine(a.repeatedSubstringPattern("abab" ));
+            DetectCapitalUse a = new DetectCapitalUse();
+            Console.WriteLine(a.detectCapitalUse("ffffffffffffffffffffF"));
             Console.ReadKey();
         }
     }

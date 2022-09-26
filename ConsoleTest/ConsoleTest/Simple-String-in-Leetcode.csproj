@@ -66,6 +66,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="ConvertToTitle.cs" />
     <Compile Include="CountSegments.cs" />
+    <Compile Include="DetectCapitalUse.cs" />
     <Compile Include="FindTheDifference.cs" />
     <Compile Include="FindWords.cs" />
     <Compile Include="FirstUniqChar.cs" />
