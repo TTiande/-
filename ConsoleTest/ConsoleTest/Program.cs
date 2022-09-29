@@ -9,8 +9,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            FindLUSlength a = new FindLUSlength();
-            Console.WriteLine(a.findLUSlength("aba","cdc"));
+            ReverseStr a = new ReverseStr();
+            Console.WriteLine(a.reverseStr("abcdef", 2));
             Console.ReadKey();
         }
     }

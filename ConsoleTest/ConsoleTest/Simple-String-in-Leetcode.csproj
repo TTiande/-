@@ -84,6 +84,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepeatedSubstringPattern.cs" />
+    <Compile Include="ReverseStr.cs" />
     <Compile Include="ReverseString.cs" />
     <Compile Include="ReverseVowels.cs" />
     <Compile Include="RomanToInt.cs" />
