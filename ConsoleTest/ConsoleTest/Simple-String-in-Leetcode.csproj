@@ -63,6 +63,7 @@
     <Compile Include="AddStrings.cs" />
     <Compile Include="BinaryTreePaths.cs" />
     <Compile Include="CanConstruct.cs" />
+    <Compile Include="CheckRecord.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="ConvertToTitle.cs" />
     <Compile Include="CountSegments.cs" />

@@ -9,8 +9,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            ReverseStr a = new ReverseStr();
-            Console.WriteLine(a.reverseStr("abcdef", 2));
+            CheckRecord a = new CheckRecord();
+            Console.WriteLine(a.checkRecord("AA"));
             Console.ReadKey();
         }
     }
