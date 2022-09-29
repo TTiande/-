@@ -8,7 +8,7 @@ namespace ConsoleTest
     class ReverseWords
     {//反转字符串中的单词III
 
-        public string ReverseWords(string s)
+        public string reverseWords(string s)
         {
             string[] s_array = s.Split(new char[1] { ' ' });
             for (int i = 0; i < s_array.Length; i++)

@@ -9,8 +9,10 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            ReverseWords a = new ReverseWords();
-            Console.WriteLine(a.reverseWords("a's s'a x's"));
+            FindRestaurant a = new FindRestaurant();
+            string[] b = { "Shogun", "Tapioca Express", "Burger King", "KFC" };
+            string[] c = { "Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun" };
+            Console.WriteLine(a.findRestaurant(b,c));
             Console.ReadKey();
         }
     }
