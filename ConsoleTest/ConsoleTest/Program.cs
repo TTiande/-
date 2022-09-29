@@ -9,8 +9,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            DetectCapitalUse a = new DetectCapitalUse();
-            Console.WriteLine(a.detectCapitalUse("ffffffffffffffffffffF"));
+            FindLUSlength a = new FindLUSlength();
+            Console.WriteLine(a.findLUSlength("aba","cdc"));
             Console.ReadKey();
         }
     }
