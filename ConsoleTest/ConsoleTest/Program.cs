@@ -9,8 +9,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            CheckRecord a = new CheckRecord();
-            Console.WriteLine(a.checkRecord("AA"));
+            ReverseWords a = new ReverseWords();
+            Console.WriteLine(a.reverseWords("a's s'a x's"));
             Console.ReadKey();
         }
     }

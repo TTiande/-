@@ -88,6 +88,7 @@
     <Compile Include="ReverseStr.cs" />
     <Compile Include="ReverseString.cs" />
     <Compile Include="ReverseVowels.cs" />
+    <Compile Include="ReverseWords.cs" />
     <Compile Include="RomanToInt.cs" />
     <Compile Include="TitleToNumber.cs" />
     <Compile Include="TreeNodecs.cs" />
