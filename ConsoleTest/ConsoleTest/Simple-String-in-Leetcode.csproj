@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="AddBinary.cs" />
     <Compile Include="AddStrings.cs" />
+    <Compile Include="AddTwoNumbers.cs" />
     <Compile Include="BinaryTreePaths.cs" />
     <Compile Include="CanConstruct.cs" />
     <Compile Include="CheckRecord.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="IsSubsequence.cs" />
     <Compile Include="IsValid.cs" />
     <Compile Include="LengthOfLastWord.cs" />
+    <Compile Include="LengthOfLongestSubstring.cs" />
     <Compile Include="LicenseKeyFormatting.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="LongestPalindrome.cs" />

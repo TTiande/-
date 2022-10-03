@@ -9,13 +9,10 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            FindRestaurant a = new FindRestaurant();
-            string[] b = { "Shogun", "Tapioca Express", "Burger King", "KFC" };
-            string[] c = { "Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun" };
-            Console.WriteLine(a.findRestaurant(b,c));
+            LengthOfLongestSubstring a = new LengthOfLongestSubstring();
+            Console.WriteLine(a.lengthOfLongestSubstring("aab"));
             Console.ReadKey();
         }
+
     }
-
-
 }
