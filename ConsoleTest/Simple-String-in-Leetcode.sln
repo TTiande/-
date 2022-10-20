@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple-String-in-Leetcode",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure", "DataStructure\DataStructure.csproj", "{FCDE93C2-C1BE-421C-9DE7-04C9969AA5EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math-in -Leetcode", "Math-in -Leetcode\Math-in -Leetcode.csproj", "{824D970B-2B6F-4FBB-AB06-853949C073CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{FCDE93C2-C1BE-421C-9DE7-04C9969AA5EF}.Debug|x86.Build.0 = Debug|x86
 		{FCDE93C2-C1BE-421C-9DE7-04C9969AA5EF}.Release|x86.ActiveCfg = Release|x86
 		{FCDE93C2-C1BE-421C-9DE7-04C9969AA5EF}.Release|x86.Build.0 = Release|x86
+		{824D970B-2B6F-4FBB-AB06-853949C073CC}.Debug|x86.ActiveCfg = Debug|x86
+		{824D970B-2B6F-4FBB-AB06-853949C073CC}.Debug|x86.Build.0 = Debug|x86
+		{824D970B-2B6F-4FBB-AB06-853949C073CC}.Release|x86.ActiveCfg = Release|x86
+		{824D970B-2B6F-4FBB-AB06-853949C073CC}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

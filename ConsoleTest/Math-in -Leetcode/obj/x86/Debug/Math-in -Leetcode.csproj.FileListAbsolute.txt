@@ -1,0 +1,4 @@
+D:\-\ConsoleTest\Math-in -Leetcode\bin\Debug\Math-in -Leetcode.exe
+D:\-\ConsoleTest\Math-in -Leetcode\bin\Debug\Math-in -Leetcode.pdb
+D:\-\ConsoleTest\Math-in -Leetcode\obj\x86\Debug\Math-in -Leetcode.exe
+D:\-\ConsoleTest\Math-in -Leetcode\obj\x86\Debug\Math-in -Leetcode.pdb

@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using DataStructure.Set;
 
-namespace DataStructure
+namespace Math_in__Leetcode
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Class1 a = new Class1();
-            a.Name();
+            IsPalindrome temp = new IsPalindrome();
+            bool a=IsPalindrome.isPalindrome(-123);
+            Console.WriteLine(a);
             Console.Read();
         }
     }
