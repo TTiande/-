@@ -9,8 +9,10 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            LengthOfLongestSubstring a = new LengthOfLongestSubstring();
-            Console.WriteLine(a.lengthOfLongestSubstring("aab"));
+            char temp = 'a';
+            Console.WriteLine(temp.GetType());
+            LongestPalindrome a = new LongestPalindrome();
+            Console.WriteLine(a.longestPalindrome("abccccdd"));
             Console.ReadKey();
         }
 
