@@ -9,9 +9,19 @@ namespace Math_in__Leetcode
     {
         static void Main(string[] args)
         {
-            IsPalindrome temp = new IsPalindrome();
-            bool a=IsPalindrome.isPalindrome(-123);
-            Console.WriteLine(a);
+            List<int> a=new List<int>();
+            int[] b=new int[]{1,1,2};
+            foreach (var i in b)
+            {
+                if (a.Contains(i))
+                    continue;
+                else
+                    a.Add(i);
+            }
+            foreach(var i in a){
+                Console.WriteLine(i);
+            }
+            
             Console.Read();
         }
     }
