@@ -9,13 +9,13 @@ namespace Math_in__Leetcode
     {
         public static bool isPalindrome(int x)
         {
-            string temp=null;
+            string temp=String.Empty;
             try
             {
                 char[] a = x.ToString().ToCharArray();
+                Array.Reverse(a);
                  temp= new string(a);
-                 if (temp == x.ToString()) return true;
-                 else return false;
+                 
             }
             catch (Exception ee)
             {
@@ -25,7 +25,9 @@ namespace Math_in__Leetcode
             {
                 Console.WriteLine("已经判断完毕。");
             }
-            return false;
+
+            if (temp == x.ToString()) return true;
+            else return false;
         }
         
     }
