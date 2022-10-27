@@ -2,3 +2,4 @@ D:\-\ConsoleTest\DataStructure\bin\Debug\DataStructure.exe
 D:\-\ConsoleTest\DataStructure\bin\Debug\DataStructure.pdb
 D:\-\ConsoleTest\DataStructure\obj\x86\Debug\DataStructure.exe
 D:\-\ConsoleTest\DataStructure\obj\x86\Debug\DataStructure.pdb
+D:\-\ConsoleTest\DataStructure\obj\x86\Debug\DataStructure.csprojResolveAssemblyReference.cache

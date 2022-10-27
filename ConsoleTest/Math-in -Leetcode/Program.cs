@@ -9,19 +9,9 @@ namespace Math_in__Leetcode
     {
         static void Main(string[] args)
         {
-            List<int> a=new List<int>();
-            int[] b=new int[]{1,1,2};
-            foreach (var i in b)
-            {
-                if (a.Contains(i))
-                    continue;
-                else
-                    a.Add(i);
-            }
-            foreach(var i in a){
-                Console.WriteLine(i);
-            }
-            
+            MySqrt a = new MySqrt();
+            //a.mySqrt(2147395599);
+            Console.Write(a.mySqrt(2147395599));
             Console.Read();
         }
     }
