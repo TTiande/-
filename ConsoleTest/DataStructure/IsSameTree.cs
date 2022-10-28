@@ -8,7 +8,7 @@ namespace DataStructure
     class IsSameTree
     {//100.相同的树。
         bool res = true;
-        public bool IsSameTree(TreeNode p, TreeNode q)
+        public bool isSameTree(TreeNode p, TreeNode q)
         {
             if (p == null && q != null || p != null && q == null)
                 return false;
@@ -20,12 +20,12 @@ namespace DataStructure
                 return true;
             if (p.left != null || q.left != null)
             {
-                res = IsSameTree(p.left, q.left);
+                res = isSameTree(p.left, q.left);
             }
             if (res != true) return false;
             if (p.right != null || q.right != null)
             {
-                res = IsSameTree(p.right, q.right);
+                res = isSameTree(p.right, q.right);
             }
             if (res != true) return false;
             return true;
