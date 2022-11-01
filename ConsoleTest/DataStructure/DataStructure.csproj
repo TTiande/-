@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeleteDuplicates.cs" />
+    <Compile Include="HasPathSum.cs" />
     <Compile Include="IsSameTree.cs" />
     <Compile Include="IsSymmetric.cs" />
     <Compile Include="MaxDepth.cs" />
