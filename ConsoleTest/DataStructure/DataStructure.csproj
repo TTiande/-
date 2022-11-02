@@ -44,11 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeleteDuplicates.cs" />
+    <Compile Include="GetIntersectionNode.cs" />
     <Compile Include="HasPathSum.cs" />
     <Compile Include="IsSameTree.cs" />
     <Compile Include="IsSymmetric.cs" />
     <Compile Include="MaxDepth.cs" />
     <Compile Include="MinDepth.cs" />
+    <Compile Include="PostorderTraversal.cs" />
+    <Compile Include="PreorderTraversal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Set\Class1.cs" />
