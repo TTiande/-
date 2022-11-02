@@ -11,16 +11,16 @@ namespace DataStructure
 
         static void Main(string[] args)
         {
-            TreeNode root = new TreeNode(3);
-            root.left =new TreeNode(9);
-            root.right = new TreeNode(20);
-            root.left.left = null;
-            root.left.right = null;
-            root.right.left = new TreeNode(15);
-            root.right.right = new TreeNode(7);
+            TreeNode root = new TreeNode(1);
+            root.left =new TreeNode(2);
+            root.right = new TreeNode(3);
+            root.left.left = new TreeNode(4);
+            root.left.right = new TreeNode(5);
+            root.right.left = null;
+            root.right.right = null;
             Solution a = new Solution();
             
-            Console.Write(a.MaxDepth(root));
+            Console.Write(a.MinDepth(root));
             Console.Read();
         }
         public class TreeNode
@@ -38,28 +38,30 @@ namespace DataStructure
 
         public class Solution
         {
-            public int MaxDepth(TreeNode root)
+            public int MinDepth(TreeNode root)
             {
-                //列表记录每层节点是最好的，BFS
-                int res = 0;
-                List<TreeNode> temp1 = new List<TreeNode>();//存储当前层节点
-                List<TreeNode> temp2 = new List<TreeNode>();//存储下一层节点
-                if (root == null) return res;
-                temp1.Add(root);
-                res++;
-                while (temp1.Count != 0)
+                int level = 0;
+                if (root == null) return 0;
+                Stack<TreeNode> temp1 = new Stack<TreeNode>();
+                Stack<TreeNode> temp2 = new Stack<TreeNode>();
+                temp1.Push(root);
+                level++;
+                while (temp1 != null)
                 {
-                    for (int i = 0; i < temp1.Count; i++)
+
+                    for (var i = 0; i < temp1.Count; )
                     {
-                        if (temp1[i].left != null) temp2.Add(temp1[i].left);
-                        if (temp1[i].right != null) temp2.Add(temp1[i].right);
+                        TreeNode temp = temp1.Pop();
+                        if (temp.left == null && temp.right == null)
+                            return level;
+                        if (temp.left != null) temp2.Push(temp.left);
+                        if (temp.right != null) temp2.Push(temp.right);
                     }
-                    if (temp2.Count == 0) return res;
-                    temp1 = new List<TreeNode>(temp2.ToArray());
+                    level++;
+                    temp1 = new Stack<TreeNode>(temp2.ToArray());
                     temp2.Clear();
-                    res++;
                 }
-                return res;
+                return level;
             }
         }
         

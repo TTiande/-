@@ -9,9 +9,9 @@ namespace Math_in__Leetcode
     {
         static void Main(string[] args)
         {
-            MySqrt a = new MySqrt();
+            SingleNumber a = new SingleNumber();
             //a.mySqrt(2147395599);
-            Console.Write(a.mySqrt(2147395599));
+            Console.Write(a.singleNumber(new int[]{2,2,1}));
             Console.Read();
         }
     }

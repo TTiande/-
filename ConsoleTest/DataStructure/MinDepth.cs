@@ -17,10 +17,15 @@ namespace DataStructure
             level++;
             while (temp1 != null)
             {
-                TreeNode temp = temp1.Pop();
-                if (temp.left == null && temp.right == null) return level;
-                if (temp.left != null) temp2.Push(temp.left);
-                if (temp.right != null) temp2.Push(temp.right);
+
+                for (var i = 0; i < temp1.Count; )
+                {
+                    TreeNode temp = temp1.Pop();
+                    if (temp.left == null && temp.right == null)
+                        return level;
+                    if (temp.left != null) temp2.Push(temp.left);
+                    if (temp.right != null) temp2.Push(temp.right);
+                }
                 level++;
                 temp1 = new Stack<TreeNode>(temp2.ToArray());
                 temp2.Clear();
